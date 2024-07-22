@@ -1,0 +1,19 @@
+<Project>
+  <PropertyGroup>
+    <ManagePackageVersionsCentrally>true</ManagePackageVersionsCentrally>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageVersion Include="Confluent.Kafka" Version="2.5.0" />
+    <PackageVersion Include="Confluent.SchemaRegistry" Version="2.5.0" />
+    <PackageVersion Include="Confluent.SchemaRegistry.Serdes.Protobuf" Version="2.5.0" />
+    <PackageVersion Include="Polly" Version="8.4.1" />
+    <PackageVersion Include="Polly.Core" Version="8.4.1" />
+    <PackageVersion Include="protobuf-net" Version="3.2.30" />
+    <PackageVersion Include="MassTransit" Version="8.2.3" />
+    <PackageVersion Include="MassTransit.Kafka" Version="8.2.3" />
+    <PackageVersion Include="Microsoft.Extensions.Hosting" Version="8.0.0" />
+    <PackageVersion Include="protobuf-net.Reflection" Version="3.2.12" />
+    <PackageVersion Include="Ulid" Version="1.3.3" />
+    <PackageVersion Include="Ulid.protobuf-net" Version="0.1.0" />
+  </ItemGroup>
+</Project>

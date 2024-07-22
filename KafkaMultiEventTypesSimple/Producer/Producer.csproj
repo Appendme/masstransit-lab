@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Worker">
+
+    <PropertyGroup>
+        <UserSecretsId>dotnet-Producer-A4569890-2727-4E4E-B88D-6FA143874948</UserSecretsId>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="MassTransit" />
+        <PackageReference Include="MassTransit.Kafka" />
+        <PackageReference Include="Microsoft.Extensions.Hosting"/>
+        <PackageReference Include="Polly" />
+        <PackageReference Include="Ulid.protobuf-net"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\Common\Common.csproj"/>
+        <ProjectReference Include="..\Domain\Domain.csproj"/>
+        <ProjectReference Include="..\Serializers\Serializers.csproj"/>
+    </ItemGroup>
+</Project>
